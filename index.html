@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AL-SADA الصدى | Extrait de Parfum, Dubai</title>
+<meta name="description" content="AL-SADA: an Emirati extrait de parfum at 32% concentration. The transition from an understated presence to an undeniable statement.">
+<meta name="theme-color" content="#0B0B0C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Inter:wght@300;400;500&family=Reem+Kufi:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <a class="logo" href="#hero" aria-label="AL-SADA home"><span>AL-SADA</span><i></i><span class="ar" lang="ar" dir="rtl">الصدى</span></a>
+  <nav id="nav" aria-label="Primary">
+    <a href="#shift">The Shift</a><a href="#vessel">The Vessel</a><a href="#sillage">Sillage</a><a href="#journal">Journal</a><a href="#acquire">Acquire</a>
+  </nav>
+  <div class="tools">
+    <button class="icon" id="theme" aria-label="Switch to light mode" aria-pressed="false">◐</button>
+    <button class="icon" id="cartBtn" aria-label="Open cart, 0 items" aria-haspopup="dialog">Cart <b id="count">0</b></button>
+    <button class="icon burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  </div>
+</header>
+
+<main id="main">
+<section id="hero" class="hero">
+  <img src="product-hero.jpg" alt="AL-SADA black crystal flacon with brushed gold cap between two open vermilion-lined presentation doors, wrapped in golden smoke" width="1672" height="941" fetchpriority="high">
+  <div class="hero-copy">
+    <p class="kicker">Extrait de Parfum · Dubai</p>
+    <h1><span class="lat">AL-SADA</span><span class="ar" lang="ar" dir="rtl">الصدى</span></h1>
+    <p class="hook">The transition from an understated presence to an undeniable statement.</p>
+    <a class="btn" href="#acquire">Acquire AL-SADA</a>
+  </div>
+  <a class="scroll" href="#shift" aria-label="Scroll to The Shift"><span></span></a>
+</section>
+
+<section id="shift" class="shift">
+  <div class="smoke" aria-hidden="true"><i></i><i></i><i></i></div>
+  <div class="wrap">
+    <h2>Silence first.<br>Then thunder.</h2>
+    <p class="lede">32% concentration, three movements. Body heat does the rest.</p>
+    <div class="tabs" role="tablist" aria-label="Fragrance movements">
+      <button role="tab" id="t0" aria-selected="true" aria-controls="p0">The Whisper</button>
+      <button role="tab" id="t1" aria-selected="false" aria-controls="p1" tabindex="-1">The Evolution</button>
+      <button role="tab" id="t2" aria-selected="false" aria-controls="p2" tabindex="-1">The Thunder</button>
+    </div>
+    <div class="panels glass">
+      <div role="tabpanel" id="p0" aria-labelledby="t0"><h3>The Whisper</h3><p class="notes">White Tea, Cold-Pressed Bergamot, Ambrette Seed.</p><p>Smells incredibly clean, expensive, and intimately close to the skin.</p></div>
+      <div role="tabpanel" id="p1" aria-labelledby="t1" hidden><h3>The Evolution</h3><p class="notes">Midnight Jasmine, Saffron Thread, Smoked Papyrus.</p><p>Rich florals and heavy spice bloom rapidly as the formulation warms on the skin.</p></div>
+      <div role="tabpanel" id="p2" aria-labelledby="t2" hidden><h3>The Thunder</h3><p class="notes">Pure Cambodi Oud, Black Amber, Velvet Musk.</p><p>A dense, opulent trail leaving a permanent signature long after you leave.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="vessel" class="vessel wrap">
+  <div class="vtext">
+    <h2>Black crystal.<br>Held light.</h2>
+    <p>Custom-molded black crystal, geometric edges, and a teardrop chamber of fluid set into the face of the monolith.</p>
+    <button class="btn ghost" id="xray" aria-pressed="false">Hold to reveal the chamber</button>
+    <p class="hint">Keyboard: hold Space or Enter.</p>
+  </div>
+  <figure class="stage" id="stage">
+    <img src="product-hero.jpg" alt="Close view of the AL-SADA flacon and its internal teardrop chamber" loading="lazy" width="1672" height="941">
+    <div class="glow" aria-hidden="true"></div>
+  </figure>
+</section>
+
+<section id="sillage" class="sillage">
+  <canvas id="sim" aria-label="Interactive sillage simulator. Move slowly for the whisper, fast or linger for the thunder." role="img"></canvas>
+  <div class="sim-copy"><h2>Sillage simulator</h2><p id="simState">Move slowly: the whisper. Move fast, or stay: the thunder.</p></div>
+</section>
+
+<section id="chest" class="chest" aria-label="Presentation chest opening">
+  <div class="chest-pin">
+    <img src="product-chest.jpg" alt="The AL-SADA chest open, vermilion lacquer lining beside the flacon" loading="lazy" width="1672" height="941">
+    <div class="door l" aria-hidden="true"></div><div class="door r" aria-hidden="true"></div>
+    <p class="chest-cap">Scroll to open the chest</p>
+  </div>
+</section>
+
+<section id="journal" class="journal wrap">
+  <h2>Journal</h2>
+  <div class="cols">
+    <p>Hospitality in the Emirates begins with smoke. Bukhoor and oud burn along Dubai Creek, and a guest is known by what stays in the room after they leave.</p>
+    <p>AL-SADA carries that custom into the language of art collecting: raw materials from private reserves, a vessel built like architecture, and an echo that outlasts the wearer.</p>
+  </div>
+  <div class="bento">
+    <div class="b1 glass"><span>32%</span>Extrait de Parfum</div>
+    <div class="b2 glass"><span>Private</span>reserve raw materials</div>
+    <div class="b3 glass"><span>Dubai</span>United Arab Emirates</div>
+  </div>
+</section>
+
+<section id="acquire" class="acquire wrap">
+  <div class="spec glass">
+    <h2>Specification</h2>
+    <dl>
+      <dt>Format</dt><dd>Extrait de Parfum</dd>
+      <dt>Concentration</dt><dd>32% ultra-concentration</dd>
+      <dt>Sourcing</dt><dd>Formulated via private reserve raw materials</dd>
+      <dt>Origin</dt><dd>Dubai, UAE</dd>
+      <dt>Price</dt><dd>AED 2,400 (placeholder)</dd>
+    </dl>
+    <button class="btn" id="add">Add to cart</button>
+  </div>
+  <form class="glass" id="reserve" novalidate>
+    <h2>Reserve your bottle</h2>
+    <label>Full name<input name="name" autocomplete="name" required></label><small class="err" data-for="name"></small>
+    <label>Email<input name="email" type="email" autocomplete="email" required></label><small class="err" data-for="email"></small>
+    <label>Phone<input name="phone" type="tel" autocomplete="tel" placeholder="+971 50 000 0000" required></label><small class="err" data-for="phone"></small>
+    <button class="btn" type="submit">Reserve AL-SADA</button>
+    <p class="ok" id="ok" role="status" hidden></p>
+  </form>
+</section>
+</main>
+
+<footer class="foot"><span>AL-SADA <span class="ar" lang="ar">الصدى</span></span><span>Extrait de Parfum | 32% Ultra-Concentration | Formulated via Private Reserve Raw Materials | Dubai, UAE</span></footer>
+
+<a class="rail" href="#acquire">Acquire</a>
+
+<aside class="drawer glass" id="drawer" role="dialog" aria-modal="true" aria-label="Cart" hidden>
+  <button class="icon close" id="closeCart" aria-label="Close cart">Close</button>
+  <h2>Your cart</h2>
+  <div id="cartBody"><p class="empty">Your cart is empty. Add AL-SADA to begin.</p></div>
+  <button class="btn" id="checkout" disabled>Continue to reserve</button>
+</aside>
+<div class="scrim" id="scrim" hidden></div>
+<script src="script.js" defer></script>
+</body>
+</html>
